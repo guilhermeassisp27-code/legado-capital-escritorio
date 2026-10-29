@@ -1,0 +1,17 @@
+# Configuração referencial para desenvolvimento. NÃO executar deploy sem aprovação do CEO.
+name = "escritorio-virtual"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-28"
+account_id = "71cf441cbc0672743ba897b8e59d2f54"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "escritorio-operacao-ia"
+database_id = "d900f663-bff7-46ea-b6ee-25ef49e42ef6"
+
+[triggers]
+crons = ["15 * * * *"]
