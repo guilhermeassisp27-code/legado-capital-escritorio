@@ -1,0 +1,11 @@
+{
+  "name": "legado-capital-escritorio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Snapshot privado do escritório Legado Capital para desenvolvimento com Codex",
+  "scripts": {
+    "check": "node --check src/worker.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
